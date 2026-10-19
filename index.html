@@ -4,10 +4,176 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <h1>Khaira CV</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+        <a class="nav-link active" href="#home">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#menu">Menu</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#kontak">Kontak</a>
+    </li>
+</ul>
+     </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="booth.jpeg" class="d-block w-100" alt="photobooth">
+    </div>
+    <div class="carousel-item">
+      <img src="2009.jpeg" class="d-block w-100" alt="09">
+    </div>
+    <div class="carousel-item">
+      <img src="kid.jpeg" class="d-block w-100" alt="anak">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<main id="menu" class="container py-5">
+    <h2 class="text-center mb-4">Pelajaran Kompetensi RPL</h2>
+
+    <div class="row g-4">
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="lego.jpeg" class="card-img-top"
+                    alt="HTML" style="height:200px; object-fit:cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">Mempelajari struktur dasar halaman website.</p>
+                    <a href="https://www.w3schools.com/html/"
+                        class="btn btn-primary mt-auto" target="_blank">
+                        Selengkapnya
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="band.jpeg" class="card-img-top"
+                    alt="CSS" style="height:200px; object-fit:cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">Mengatur warna dan tampilan website.</p>
+                    <a href="https://www.w3schools.com/css/"
+                        class="btn btn-primary mt-auto" target="_blank">
+                        Selengkapnya
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="peace.jpeg" class="card-img-top"
+                    alt="JavaScript" style="height:200px; object-fit:cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">JavaScript</h5>
+                    <p class="card-text">Membuat website lebih interaktif.</p>
+                    <a href="https://www.w3schools.com/js/"
+                        class="btn btn-primary mt-auto" target="_blank">
+                        Selengkapnya
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="fire.jpeg" class="card-img-top"
+                    alt="Bootstrap" style="height:200px; object-fit:cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">Membuat tampilan website responsif.</p>
+                    <a href="https://www.w3schools.com/bootstrap5/"
+                        class="btn btn-primary mt-auto" target="_blank">
+                        Selengkapnya
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="hand.jpeg" class="card-img-top"
+                    alt="PHP" style="height:200px; object-fit:cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">PHP</h5>
+                    <p class="card-text">Mengenal pemrograman website dinamis.</p>
+                    <a href="https://www.w3schools.com/php/"
+                        class="btn btn-primary mt-auto" target="_blank">
+                        Selengkapnya
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="tree.jpeg" class="card-img-top"
+                    alt="Database" style="height:200px; object-fit:cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Database MySQL</h5>
+                    <p class="card-text">Mempelajari cara menyimpan dan mengelola data.</p>
+                    <a href="https://www.w3schools.com/mysql/"
+                        class="btn btn-primary mt-auto" target="_blank">
+                        Selengkapnya
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+
+<div class="card" style="width: 18rem;">
+  <img src="fire.jpeg" class="card-img-top" alt="gambar api">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
